@@ -11,7 +11,7 @@ services:
   redis:
     image: redis
     
- cairis:
+  cairis:
     image: cairis
     
   web:

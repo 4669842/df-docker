@@ -10,7 +10,10 @@ services:
 
   redis:
     image: redis
-
+    
+ cairis:
+    image: cairis
+    
   web:
     environment:
       SERVERNAME: dreamfactory.local
